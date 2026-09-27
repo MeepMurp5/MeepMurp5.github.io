@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes - Vincent Wang</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body, {delimiters: [{left: '\\(', right: '\\)', display: false}]});"></script>
+</head>
+<body>
+
+    <h1>Vincent Wang</h1>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="notes.html">Notes</a> |
+        <a href="papers.html">Papers</a>
+    </nav>
+
+    <hr>
+
+    <h2>Notes</h2>
+
+    <p>
+        Unpolished LaTeX notes. thx claude for compiling them
+    </p>
+
+    <p>
+        <a href="#topology">Topology &amp; Geometry</a> |
+        <a href="#algebra">Algebra</a> |
+        <a href="#category">Category Theory &amp; Homological Algebra</a> |
+        <a href="#analysis">Analysis</a> |
+        <a href="#measure">Measure Theory &amp; Probability</a> |
+        <a href="#sets">Set Theory</a> |
+        <a href="#numbers">Number Theory &amp; Combinatorics</a> |
+        <a href="#cs">Computer Science &amp; Machine Learning</a> |
+        <a href="#problems">Problems &amp; Reviews</a>
+    </p>
+
+    <h3 id="topology">Topology &amp; Geometry</h3>
+    <p>Munkres, <i>Topology</i></p>
+    <ul>
+        <li><a href="notes/Munkres_1.pdf">Munkres 1</a> &mdash; set theory: finite sets, well-ordering (4 pp.)</li>
+        <li><a href="notes/Munkres_2.pdf">Munkres 2</a> &mdash; product and subspace topologies (mostly problem statements) (1 p.)</li>
+        <li><a href="notes/Munkres_3.pdf">Munkres 3</a> &mdash; connectedness and compactness (mostly problem statements) (1 p.)</li>
+        <li><a href="notes/Munkres_4.pdf">Munkres 4</a> &mdash; countability and separation axioms, Urysohn embedding (9 pp.)</li>
+        <li><a href="notes/Munkres_5.pdf">Munkres 5</a> &mdash; Tychonoff theorem, Stone&ndash;&#268;ech compactification (5 pp.)</li>
+        <li><a href="notes/Munkres_6.pdf">Munkres 6</a> &mdash; Nagata&ndash;Smirnov metrization, paracompactness (11 pp.)</li>
+        <li><a href="notes/Munkres_7.pdf">Munkres 7</a> &mdash; complete metric spaces and function spaces (2 pp.)</li>
+        <li><a href="notes/Munkres_9.pdf">Munkres 9</a> &mdash; covering maps, deformation retracts, \(\pi_1(S^n)\) (6 pp.)</li>
+        <li><a href="notes/Munkres_11.pdf">Munkres 11</a> &mdash; free products, free groups, wedges of circles, adjunction spaces (9 pp.)</li>
+        <li><a href="notes/Munkres_12.pdf">Munkres 12</a> &mdash; abelianization and computing fundamental groups (2 pp.)</li>
+        <li><a href="notes/Munkres_13.pdf">Munkres 13</a> &mdash; equivalence of covering spaces, the universal cover (2 pp.)</li>
+        <li><a href="notes/Munkres_Review.pdf">Munkres review</a> &mdash; compact ordered sets, sequential compactness, \(\omega_1\) (2 pp.)</li>
+    </ul>
+
+    <p>General topology</p>
+    <ul>
+        <li><a href="notes/General_Topology_1.pdf">General topology problems I</a> &mdash; uncountable sums, metric spaces, continuity (5 pp.)</li>
+        <li><a href="notes/General_Topology_2.pdf">General topology problems II</a> &mdash; closure and boundary, Kuratowski closure&ndash;complement (3 pp.)</li>
+        <li><a href="notes/681_Notes_1.pdf">MATH 681 notes</a> &mdash; the universal property of the product topology (1 p.)</li>
+    </ul>
+
+    <p>Greenberg &amp; Harper, <i>Algebraic Topology</i></p>
+    <ul>
+        <li><a href="notes/Greenberg_Harper_8.pdf">Greenberg &amp; Harper 8</a> &mdash; affine preliminaries, singular homology (2 pp.)</li>
+        <li><a href="notes/Greenberg_Harper_10.pdf">Greenberg &amp; Harper 10</a> &mdash; chain complexes, \(\pi_1\) vs. \(H_1\), the exact homology sequence (5 pp.)</li>
+        <li><a href="notes/Greenberg_Harper_16.pdf">Greenberg &amp; Harper 16</a> &mdash; maps of spheres, \(\mathbb{RP}^n\), Mayer&ndash;Vietoris, Jordan separation (10 pp.)</li>
+        <li><a href="notes/Greenberg_Harper_20.pdf">Greenberg &amp; Harper 20</a> &mdash; Betti numbers, Euler characteristic, cell complexes (8 pp.)</li>
+        <li><a href="notes/Greenberg_Harper_22.pdf">Greenberg &amp; Harper 22</a> &mdash; orientation of manifolds, cohomology, Ext (10 pp.)</li>
+        <li><a href="notes/Greenberg_Harper_25.pdf">Greenberg &amp; Harper 25</a> &mdash; direct limits, orientation of manifolds revisited (6 pp.)</li>
+        <li><a href="notes/hatcher_3.pdf">Hatcher 3</a> &mdash; the K&uuml;nneth cross product (1 p.)</li>
+    </ul>
+
+    <p>Manifolds and Lie groups</p>
+    <ul>
+        <li><a href="notes/tu_1.pdf">Tu 1</a> &mdash; smooth maps, submanifolds, the Lie bracket, vector bundles (10 pp.)</li>
+        <li><a href="notes/tu_17.pdf">Tu 17</a> &mdash; pullbacks of differential 1-forms (1 p.)</li>
+        <li><a href="notes/lie_groups_1.pdf">Lie groups I</a> &mdash; homomorphisms of \(S^1\), the exponential map, vector bundles (3 pp.)</li>
+    </ul>
+
+    <h3 id="algebra">Algebra</h3>
+    <p>Group theory</p>
+    <ul>
+        <li><a href="notes/df3.pdf">Dummit &amp; Foote 3</a> &mdash; quotient groups, isomorphism theorems, groups of order \(pq\) (7 pp.)</li>
+        <li><a href="notes/Cauchy_and_Sylows_Theorems.pdf">Cauchy's and Sylow's theorems</a> &mdash; proofs of both (2 pp.)</li>
+        <li><a href="notes/Sylow_Theorems.pdf">Sylow theorems</a> &mdash; group actions, Sylow theorems, solvable and simple groups (3 pp.)</li>
+        <li><a href="notes/Problems_in_Group_Theory_Chapter_1.pdf"><i>Problems in Group Theory</i> 1</a> &mdash; exercises on cosets and index (4 pp.)</li>
+        <li><a href="notes/Free_Groups.pdf">Free groups</a> &mdash; free products and free groups via reduced words (2 pp.)</li>
+    </ul>
+
+    <p>Rings, modules, and fields</p>
+    <ul>
+        <li><a href="notes/Dummit_and_Foote_7.1.pdf">Dummit &amp; Foote 7.1</a> &mdash; basic properties of rings (4 pp.)</li>
+        <li><a href="notes/Dummit_and_Foote_7.2.pdf">Dummit &amp; Foote 7.2</a> &mdash; polynomial, matrix, and group rings (4 pp.)</li>
+        <li><a href="notes/Dummit_and_Foote_7.3.pdf">Dummit &amp; Foote 7.3</a> &mdash; ideals, quotient rings, prime and maximal ideals (6 pp.)</li>
+        <li><a href="notes/Dummit_and_Foote_7.4.pdf">Dummit &amp; Foote 7.4</a> &mdash; the Chinese remainder theorem (3 pp.)</li>
+        <li><a href="notes/Dummit_and_Foote_8.1.pdf">Dummit &amp; Foote 8.1</a> &mdash; Euclidean domains, Gaussian integers (3 pp.)</li>
+        <li><a href="notes/df10.1.pdf">Dummit &amp; Foote 10.1</a> &mdash; modules: definitions and examples (2 pp.)</li>
+        <li><a href="notes/df11.pdf">Dummit &amp; Foote 11</a> &mdash; tensor products; tensor, symmetric, and exterior algebras (12 pp.)</li>
+        <li><a href="notes/df_tensor_symmetric_exterior_algebras.pdf">Dummit &amp; Foote: tensor algebras</a> &mdash; universal property of the tensor algebra (3 pp.)</li>
+        <li><a href="notes/df_field_theory.pdf">Dummit &amp; Foote: field theory</a> &mdash; splitting fields, algebraic closure, separability, cyclotomic polynomials (10 pp.)</li>
+        <li><a href="notes/df_galois_theory.pdf">Dummit &amp; Foote: Galois theory</a> &mdash; the fundamental theorem, cyclotomic extensions, insolvability of the quintic (16 pp.)</li>
+        <li><a href="notes/Fundamental_Theorem_of_Galois_Theory.pdf">Fundamental theorem of Galois theory</a> &mdash; a single exercise (1 p.)</li>
+        <li><a href="notes/Algebra_4.pdf">Algebra 4</a> &mdash; free abelian groups, PIDs and UFDs, quadratic integers, modules over a PID (9 pp.)</li>
+        <li><a href="notes/Euclidean_Domains_PID_UFD.pdf">Euclidean domains, PIDs, UFDs</a> &mdash; basic implications (2 pp.)</li>
+        <li><a href="notes/Modules.pdf">Modules</a> &mdash; algebras, free modules, irreducible modules (4 pp.)</li>
+    </ul>
+
+    <p>Linear algebra</p>
+    <ul>
+        <li><a href="notes/Introduction_to_Linear_Algebra_Chapter_3.pdf">Strang 3</a> &mdash; nullspaces and rank (exercises) (6 pp.)</li>
+        <li><a href="notes/Linear_Algebra_1.pdf">Linear algebra I</a> &mdash; rank, determinants, orthogonal matrices (5 pp.)</li>
+        <li><a href="notes/Linear_Algebra_2.pdf">Linear algebra II</a> &mdash; idempotents, dual spaces, bilinear forms (3 pp.)</li>
+        <li><a href="notes/Linear_Algebra_3.pdf">Linear algebra III</a> &mdash; invariant subspaces, minimal polynomial, tensor products (3 pp.)</li>
+        <li><a href="notes/Euclidean_Space.pdf">Euclidean spaces</a> &mdash; automorphisms of the quaternions, isometries (2 pp.)</li>
+    </ul>
+
+    <p>Representation theory</p>
+    <ul>
+        <li><a href="notes/df18.pdf">Dummit &amp; Foote 18</a> &mdash; first facts about representations (2 pp.)</li>
+        <li><a href="notes/FH_1.pdf">Fulton &amp; Harris 1</a> &mdash; complete reducibility, characters, projection formulas (8 pp.)</li>
+        <li><a href="notes/677_Final_Review.pdf">MATH 677 final review</a> &mdash; representations, Jordan&ndash;H&ouml;lder, Galois theory, semidirect products (8 pp.)</li>
+    </ul>
+
+    <p>Commutative algebra</p>
+    <ul>
+        <li><a href="notes/atiyah_macdonald_1.pdf">Atiyah &amp; Macdonald 1</a> &mdash; nilradical and Jacobson radical, operations on ideals, exact sequences (3 pp.)</li>
+        <li><a href="notes/atiyah_macdonald_4.pdf">Atiyah &amp; Macdonald 4</a> &mdash; localization, primary decomposition (incomplete) (3 pp.)</li>
+        <li><a href="notes/reid_3.pdf">Reid 3</a> &mdash; affine varieties and the Nullstellensatz (3 pp.)</li>
+    </ul>
+
+    <h3 id="category">Category Theory &amp; Homological Algebra</h3>
+    <ul>
+        <li><a href="notes/maclane_1.pdf">Mac Lane 1</a> &mdash; axioms for categories (2 pp.)</li>
+        <li><a href="notes/Hilton_Stammbach_1.pdf">Hilton &amp; Stammbach 1</a> &mdash; modules, projective and injective modules, essential extensions (19 pp.)</li>
+        <li><a href="notes/Hilton_Stammbach_2.pdf">Hilton &amp; Stammbach 2</a> &mdash; categories, functors, natural transformations (10 pp.)</li>
+        <li><a href="notes/Hilton_Stammbach_7.pdf">Hilton &amp; Stammbach 7</a> &mdash; Yoneda, adjoint functors, direct limits, tensor products (3 pp.)</li>
+        <li><a href="notes/Exact_Sequences_Projective_Injective_and_Flat_Modules.pdf">Exact sequences; projective, injective, and flat modules</a> &mdash; extensions, Noetherian rings (4 pp.)</li>
+        <li><a href="notes/Direct_Sets_Limits.pdf">Directed sets and limits</a> &mdash; direct limits of structures (2 pp.)</li>
+        <li><a href="notes/Algebra_for_Topology_Review.pdf">Algebra for topology review</a> &mdash; the fundamental theorem of homological algebra (2 pp.)</li>
+    </ul>
+
+    <h3 id="analysis">Analysis</h3>
+    <p>Tao, <i>Analysis I</i> and <i>II</i></p>
+    <ul>
+        <li><a href="notes/tao2.pdf">Tao 2</a> &mdash; Peano arithmetic, order, multiplication (3 pp.)</li>
+        <li><a href="notes/tao4_5.pdf">Tao 4&ndash;5</a> &mdash; constructing the integers, rationals, and reals (6 pp.)</li>
+        <li><a href="notes/Tao_6.pdf">Tao 6</a> &mdash; sequences and completeness (3 pp.)</li>
+        <li><a href="notes/Tao_7.pdf">Tao 7</a> &mdash; series: absolute convergence, root test, rearrangements (6 pp.)</li>
+        <li><a href="notes/Tao_9.pdf">Tao 9</a> &mdash; continuity, real exponentiation, differentiation (7 pp.)</li>
+        <li><a href="notes/Tao_11.pdf">Tao 11</a> &mdash; Riemann integration (4 pp.)</li>
+        <li><a href="notes/Tao2.3.pdf">Tao II.3</a> &mdash; uniform convergence, Weierstrass approximation, real analytic functions (14 pp.)</li>
+        <li><a href="notes/Tao2.4.pdf">Tao II.4</a> &mdash; exp and log, complex numbers, rearrangement of series (11 pp.)</li>
+        <li><a href="notes/Tao2.5.pdf">Tao II.5</a> &mdash; Fourier series: convolutions, Fej&eacute;r kernels, Plancherel (12 pp.)</li>
+        <li><a href="notes/Tao2.6.pdf">Tao II.6</a> &mdash; derivatives of maps \(\mathbb{R}^n \to \mathbb{R}^m\) (2 pp.)</li>
+        <li><a href="notes/Tao2.7.pdf">Tao II.7</a> &mdash; Lebesgue outer measure (2 pp.)</li>
+    </ul>
+
+    <p>Complex analysis</p>
+    <ul>
+        <li><a href="notes/Ahlfors_1.pdf">Ahlfors 1</a> &mdash; complex numbers, power series, M&ouml;bius maps, Riemann surfaces (14 pp.)</li>
+        <li><a href="notes/Ahlfors_4.pdf">Ahlfors 4</a> &mdash; complex integration, Cauchy's theorem (9 pp.)</li>
+    </ul>
+
+    <p>Other</p>
+    <ul>
+        <li><a href="notes/A_Calc.pdf">Advanced calculus</a> &mdash; Taylor's theorem with remainder, indeterminate forms (5 pp.)</li>
+        <li><a href="notes/Multivariable_Chapter_1.pdf">Multivariable calculus 1</a> &mdash; derivatives and Jacobians (exercises) (3 pp.)</li>
+        <li><a href="notes/Apostol9.pdf">Apostol 9</a> &mdash; partial derivatives (2 pp.)</li>
+        <li><a href="notes/Hatcher_0.pdf">Review</a> &mdash; Riemann integrability, Sylvester's law of inertia (3 pp.)</li>
+        <li><a href="notes/Special_Functions.pdf">Special functions</a> &mdash; orthogonal polynomials, Gaussian quadrature (2 pp.)</li>
+        <li><a href="notes/stirlings_theorem_notes.pdf">Stirling's formula</a> &mdash; elementary bounds on \(n!\) (1 p.)</li>
+    </ul>
+
+    <h3 id="measure">Measure Theory &amp; Probability</h3>
+    <ul>
+        <li><a href="notes/folland_1.pdf">Folland 1</a> &mdash; \(\sigma\)-algebras, measures, outer measures (4 pp.)</li>
+        <li><a href="notes/measure_0.pdf">Measure theory 0</a> &mdash; unordered sums, elementary sets, Jordan measure (6 pp.)</li>
+        <li><a href="notes/measure_theory_extra.pdf">Measure theory extra</a> &mdash; the Cantor set and function, measurable functions (4 pp.)</li>
+        <li><a href="notes/integration.pdf">Integration</a> &mdash; simple functions and the integral (3 pp.)</li>
+        <li><a href="notes/653_notes.pdf">MATH 653 notes</a> &mdash; the \(\pi\)&ndash;\(\lambda\) theorem (1 p.)</li>
+        <li><a href="notes/Probability.pdf">Probability I</a> &mdash; axioms and discrete probability (2 pp.)</li>
+        <li><a href="notes/Probability_2.pdf">Probability II</a> &mdash; joint distributions, independence, Markov's inequality (2 pp.)</li>
+        <li><a href="notes/Prob.pdf">Probably</a> &mdash; expected distance in a square, minima of iid variables, a dice game (2 pp.)</li>
+        <li><a href="notes/mm.pdf">Probability puzzles</a> &mdash; conditional expectations and estimates (2 pp.)</li>
+    </ul>
+
+    <h3 id="sets">Set Theory</h3>
+    <ul>
+        <li><a href="notes/Jech_1.pdf">Jech 1</a> &mdash; ordered pairs, inductive sets (3 pp.)</li>
+        <li><a href="notes/Jech_2.pdf">Jech 2</a> &mdash; well-orderings and ordinals (5 pp.)</li>
+        <li><a href="notes/Jech_3.pdf">Jech 3</a> &mdash; cardinal numbers, cofinality (4 pp.)</li>
+        <li><a href="notes/hrbacek_1.pdf">Hrbacek &amp; Jech 1</a> &mdash; axioms, the empty set, separation (3 pp.)</li>
+        <li><a href="notes/Ordinal_Numbers.pdf">Ordinal numbers</a> &mdash; well-ordered sets and ordinals from scratch (12 pp.)</li>
+        <li><a href="notes/Zorns_Lemma.pdf">Zorn's lemma</a> &mdash; partial orders and Zorn's lemma (2 pp.)</li>
+    </ul>
+
+    <h3 id="numbers">Number Theory &amp; Combinatorics</h3>
+    <ul>
+        <li><a href="notes/p-adic_Numbers.pdf">\(p\)-adic numbers</a> &mdash; the \(p\)-adic absolute value, topology of \(\mathbb{Q}_p\) (6 pp.)</li>
+        <li><a href="notes/Rational_Points_on_Elliptic_Curves_Solutions.pdf"><i>Rational Points on Elliptic Curves</i> 1</a> &mdash; the group law (exercises) (2 pp.)</li>
+        <li><a href="notes/Rational_Points_on_Elliptic_Curves_Chapter_2.pdf"><i>Rational Points on Elliptic Curves</i> 2</a> &mdash; points of finite order (4 pp.)</li>
+        <li><a href="notes/Rational_Points_on_Elliptic_Curves_Chapter_3.pdf"><i>Rational Points on Elliptic Curves</i> 3</a> &mdash; Mordell's theorem, heights (2 pp.)</li>
+        <li><a href="notes/Continued_Fractions.pdf">Continued fractions</a> &mdash; convergence, square roots (1 p.)</li>
+        <li><a href="notes/Automorphism_Forms_on_GL_2.pdf">Automorphic forms on \(\mathrm{GL}_2\)</a> &mdash; the upper half-plane and the disk (1 p.)</li>
+        <li><a href="notes/cap_set_problem.pdf">The cap set problem</a> &mdash; polynomial-method upper bounds, lower-bound constructions (5 pp.)</li>
+        <li><a href="notes/Graph_Theory.pdf">Graph theory</a> &mdash; edge deletion and paths (1 p.)</li>
+    </ul>
+
+    <h3 id="cs">Computer Science &amp; Machine Learning</h3>
+    <ul>
+        <li><a href="notes/Basic_Information_Theory.pdf">Basic information theory</a> &mdash; (this is the only one i tried polishing) entropy, mutual information, data processing (a handout) (7 pp.)</li>
+        <li><a href="notes/entropy.pdf">Entropy</a> &mdash; joint and conditional entropy, cross-entropy (5 pp.)</li>
+        <li><a href="notes/Statistical_Mechanics.pdf">Statistical mechanics</a> &mdash; the Boltzmann distribution (2 pp.)</li>
+        <li><a href="notes/deep_learning_2.pdf"><i>Deep Learning</i> 2&ndash;3</a> &mdash; PCA, probability and information theory, optimization (10 pp.)</li>
+        <li><a href="notes/deep_learning_5.pdf"><i>Deep Learning</i> 5</a> &mdash; bias and variance of estimators, Bellman equations (6 pp.)</li>
+        <li><a href="notes/Machine_Learning.pdf">Machine learning</a> &mdash; projection onto a hyperplane, Gaussians, perceptron objective (1 p.)</li>
+        <li><a href="notes/RL.pdf">Reinforcement learning</a> &mdash; Bellman equations (2 pp.)</li>
+        <li><a href="notes/bn.pdf">Bayesian networks</a> &mdash; conditional independence (2 pp.)</li>
+        <li><a href="notes/heuristic.pdf">Search heuristics</a> &mdash; admissible and consistent heuristics (1 p.)</li>
+        <li><a href="notes/DP.pdf">Dynamic programming</a> &mdash; longest increasing subsequence (1 p.)</li>
+        <li><a href="notes/tcs2.pdf">Theory of computation</a> &mdash; DFAs, \(\varepsilon\)-NFAs, Turing machines, undecidability (7 pp.)</li>
+    </ul>
+
+    <h3 id="problems">Problems &amp; Reviews</h3>
+    <ul>
+        <li><a href="notes/GRE_Review.pdf">GRE Math Subject review</a> &mdash; parametric curves, surfaces, Green's theorem, point-set topology (8 pp.)</li>
+        <li><a href="notes/Kyiv_Mechmat_2025.pdf">Kyiv Mechmat 2025</a> &mdash; competition solutions (2 pp.)</li>
+        <li><a href="notes/PSS_Week_5_P12.pdf">Problem Solving Seminar, week 5</a> &mdash; the inmates problem (2 pp.)</li>
+        <li><a href="notes/PSS_Week_12_P12.pdf">Problem Solving Seminar, week 12</a> &mdash; finding the liar among four witnesses (1 p.)</li>
+    </ul>
+
+    <hr>
+
+</body>
+</html>
